@@ -6,7 +6,7 @@ compatibility_date = "2023-01-01"
 USERNAME = "$USERNAME"
 PASSWORD = "$PASSWORD"
 BUCKET_NAME = "$BUCKET_NAME"
-account_id = "99760fee2f45db1d662092b8e356de5e"
+
 
 [[r2_buckets]]
 binding = "BUCKET"
