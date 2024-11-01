@@ -13,7 +13,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Build & Deploy Worker
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: "nbCzbZqv90RcW6ZlAre5NIQqgopPzs9jyHTMRscg"
+"
