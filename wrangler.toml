@@ -1,14 +1,14 @@
-name = "cf-r2-webdav"
+name = "webdav"
 main = "src/index.ts"
 compatibility_date = "2023-01-01"
 
 account_id = "99760fee2f45db1d662092b8e356de5e"  # Replace with the desired account_id
 
 [vars]
-USERNAME = "$USERNAME"
-PASSWORD = "$PASSWORD"
-BUCKET_NAME = "$BUCKET_NAME"
+USERNAME = "afosne"
+PASSWORD = "Sunshine08."
+BUCKET_NAME = "webdav"
 
 [[r2_buckets]]
 binding = "BUCKET"
-bucket_name = "$BUCKET_NAME"
+bucket_name = "webdav"
