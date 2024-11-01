@@ -22,8 +22,9 @@ jobs:
           sed -e "s/\$USERNAME/$USERNAME/g" \
               -e "s/\$PASSWORD/$PASSWORD/g" \
               -e "s/\$BUCKET_NAME/$BUCKET_NAME/g" \
+              -e "s/\$ACCOUNT_ID/99760fee2f45db1d662092b8e356de5e/g" \
               wrangler.toml.template > wrangler.toml
-          cat wrangler.toml
+            cat wrangler.toml
 
       - name: Build & Deploy Worker
         uses: cloudflare/wrangler-action@v3
